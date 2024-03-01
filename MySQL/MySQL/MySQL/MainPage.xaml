@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
+        <Entry x:Name="EdtNombre" Placeholder="Nombre"/>
+        <Entry x:Name="EdtApellidoPaterno" Placeholder="Apellido parterno"/>
+        <Entry x:Name="EdtApellidoMaterno" Placeholder="Apellido marterno"/>
+        <Entry x:Name="EdtNumeroTelefono" Placeholder="Numero de telefono" Keyboard="Numeric" IsPassword="True"/>
+        <Entry x:Name="EdtCorreo" Placeholder="Correo electronico"/>        
+        <!--<Button x:Name="BtnAlta" Text="Alta" Clicked="BtnAlta_Clicked"/>
+        <Button x:Name="BtnConsultar" Text="Consultar" Clicked="BtnConsultar_Clicked"/>-->
+    </StackLayout>
+
+</ContentPage>

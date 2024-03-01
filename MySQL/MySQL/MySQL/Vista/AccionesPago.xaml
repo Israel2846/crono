@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL.Vista.AccionesPago"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
+            <Label x:Name="TxvId" Text="Id" IsVisible="False"/>
+            <Label x:Name="TxvFolio" Text="Folio" IsVisible="False"/>
+            <Entry x:Name="EdtMonto" Placeholder="Monto" Keyboard="Numeric" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtFecha" Placeholder="Fecha de deposito" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtPeriodo" Placeholder="Periodo" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Button x:Name="btnModificar" Text="Modificar" Clicked="btnModificar_Clicked" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#011f75" TextColor="#011f75"
+                    CornerRadius="40"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#011f75" TextColor="#011f75"
+                    CornerRadius="40"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

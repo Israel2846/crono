@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL.Vista.AltaUsuario"
+             BackgroundColor="White">
+    <ScrollView>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
+            <Image Source="Alta" HeightRequest="150"/>
+            <Entry x:Name="EdtFolio" Placeholder="Folio" Keyboard="Numeric" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtNombre" Placeholder="Nombre" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtApp" Placeholder="Apellido parterno" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtApm" Placeholder="Apellido marterno" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtCargo" Placeholder="Fechas de pagos" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtLugarTrabajo" Placeholder="Cantidad a pagar" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtPuesto" Placeholder="Puesto y dependencia" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Entry x:Name="EdtFecha" Placeholder="Fecha" PlaceholderColor="SlateGray" Keyboard="Text" TextColor="Black"/>
+            <Button x:Name="BtnAlta" Text="Alta" Clicked="BtnAlta_Clicked" BackgroundColor="Transparent" 
+                    BorderWidth="1" BorderColor="#011f75" TextColor="#011f75" CornerRadius="40"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

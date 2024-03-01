@@ -1,0 +1,26 @@
+Server: sql9.freemysqlhosting.net
+Name: sql9615317
+Username: sql9615317
+Password: NXrlyTdG3u
+Port number: 3306
+
+contraseña base de datos: cronos123
+correo: jcolin181@gmail.com
+
+tabla Usuriaos :
+	Folio int
+	Nombre varchar 50
+	App varchar 50
+	Apm varchar 50
+	Cargo varchar 50
+	Lug_trabajo varchar 50
+	Puesto varchar 50 
+	Fecha_alta varchar 20
+tabla Pagos:
+	Id_pagos int
+	Folio int
+	Monto int
+	Fecha varchar 20
+	Periodo varchar 50
+	
+	

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL.Vista.AccionesUsuario"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
+            <Label x:Name="TxvFolio"/>
+            <Entry x:Name="EdtFolio" Placeholder="Folio" Keyboard="Numeric" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtNombre" Placeholder="Nombre" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtApp" Placeholder="Apellido parterno" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtApm" Placeholder="Apellido marterno" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtCargo" Placeholder="Fechas de pago" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtLugarTrabajo" Placeholder="Cantidad a pagar" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtPuesto" Placeholder="Puesto y dependencia" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Entry x:Name="EdtFecha" Placeholder="Fecha" Keyboard="Text" PlaceholderColor="SlateGray" TextColor="Black"/>
+            <Button x:Name="BtnModificar" Text="Modificar" Clicked="BtnModificar_Clicked" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#011f75" TextColor="#011f75"
+                    CornerRadius="40"/>
+            <Button x:Name="BtnEliminar" Text="Eliminar" Clicked="BtnEliminar_Clicked" BackgroundColor="Transparent" BorderWidth="1" BorderColor="#011f75" TextColor="#011f75"
+                    CornerRadius="40"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
